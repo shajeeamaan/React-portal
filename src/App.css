@@ -39,19 +39,23 @@
 
 .container{
   background-color: #282c34;
-  min-height: 500px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin-top: 8%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  margin-right: 10%;
 }
 
 .imgside{
-  
-  min-height: 200px;
+  height: 500px;
+  min-width: 50%;
   background-color: red;
 }
 
 .loginside{
-  min-height: 200px;
+  height: 500px;
+  min-width: 50%;
   background-color: royalblue;
 }
