@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  background-color: #282c34;
+  min-height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.imgside{
+  
+  min-height: 200px;
+  background-color: red;
+}
+
+.loginside{
+  min-height: 200px;
+  background-color: royalblue;
+}
