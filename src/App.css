@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,6 +37,7 @@
   }
 }
 
+
 .container{
   background-color: #282c34;
   display: flex;
@@ -46,16 +47,68 @@
   margin-left: 10%;
   margin-bottom: 5%;
   margin-right: 10%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 31px -14px rgba(140,140,140,1);
 }
 
 .imgside{
   height: 500px;
   min-width: 50%;
-  background-color: red;
+  background: url(../src/img/img1.jpg);
+  background-size: cover;
+  border-radius: 0 20px 20px 0;
 }
 
 .loginside{
   height: 500px;
   min-width: 50%;
-  background-color: royalblue;
+  background-color: white;
+  border-radius: 20px 0 0 20px;
+
+}
+
+.loginsection{
+  width: 350px;
+  text-align: left;
+  /* margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 20%; */
+  padding-top: 15%;
+  padding-left: 10%;
+}
+
+.title{
+  margin-bottom: 10px;
+}
+
+input{
+  width: 350px;
+  height: 20px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button{
+  width: 392px;
+  box-shadow: 0px 10px 14px -7px #00A6FF;
+	background-color:#00A6FF;
+	border-radius:5px;
+	color:#ffffff;
+  font-size:16px;
+  font-weight: 600;
+  margin-top: 20px;
+	padding:13px 32px;
+	text-decoration:none;
+  border: none;
+}
+
+.regsetion{
+  margin-top: 40px;
+}
+
+.reglink{
+  color :#00A6FF;
+  font-weight: 400;
 }
